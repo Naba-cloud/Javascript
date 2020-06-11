@@ -56,3 +56,22 @@ document.write("The sum of ","\t",num1 ," and \t", num2,"is \t"+sum);
 var differnce=num1-num2;
 document.write("\n \n The differnce of ","\t",num1 ," and \t", num2,"is \t"+differnce);
 
+//Assignment 4
+//Question 1 Declaration Of Variable
+var a,b,c;
+//question 2 //Declaration Of 5 legal nad 5 illegal Variables
+//legal 
+var helloWorld,subject,marksheet,Sum,$kangroo;
+//illegal variables
+// var 1se,for,-subject,?white,#color;
+//Question 3 Rules For Js variable
+var rules;
+rules="Rules For Naming Js Variable";
+document.writeln("\n",rules.bold());
+document.writeln('Variable names can only contain ___numbers__, __$____and _.');
+document.writeln('For example $my_1stVariable');
+document.writeln('Variables must begin with a __letter____, ___$___ or _. For example $name, _name or name');
+document.writeln('Variable names are case ___Sensitive______');
+document.writeln('Variable names should not be JS _______keywords__')
+
+
